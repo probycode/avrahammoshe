@@ -1,0 +1,78 @@
+$base-color: rgba(111, 165, 191, 1);
+$primary-color: rgba(3, 200, 158, 1);
+$secondary-color: #0B2343;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 3%;
+  background-color: $secondary-color;
+  
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 94.5%;
+}
+
+ li, a, button {
+    font-family: "Tahoma";
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: $base-color;
+  }
+  
+  .logo {
+    cursor: pointer;
+    font-family: "Tahoma";
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: $primary-color;
+  }
+  
+  nav {
+    
+    li:last-of-type {
+      margin-right: 40px;
+    }
+  }
+  
+  .nav_links {
+    list-style: none;
+  
+    li {
+      display: inline-block;
+      padding: 0px 20px;
+      
+      a {
+        transition: all 0.3 ease 0s;
+      }
+      
+      a:hover {
+        color: rgba(111, 165, 191, 0.7);
+      }
+    }
+  }
+  
+  button {
+      font-weight: bold;
+      border: 2px solid rgba(3, 200, 158,0.8);
+      border-radius: 5px;
+      background-color: transparent;
+      color: rgba(3, 200, 158,0.8);
+      padding: 12px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.3 ease 0s;
+      outline:none
+  }
+  
+  button:hover {
+      background-color: rgba(3, 200, 158,0.15);
+      border: 2px solid $primary-color;
+      border-radius: 5px;
+  }
