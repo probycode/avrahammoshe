@@ -3,6 +3,7 @@ $primary-color: rgba(3, 200, 158, 1);
 $secondary-color: #0B2343;
 
 header {
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;

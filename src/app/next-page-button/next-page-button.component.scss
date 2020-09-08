@@ -1,0 +1,48 @@
+p, button {
+    font-family: "Tahoma";
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.next-page {
+    position: absolute;
+    text-align: center;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+
+    transition: all 0.1s ease-in-out;
+
+    cursor: pointer;
+
+
+    a {
+        text-decoration: none;
+    }
+    
+    p {
+        color: rgba(0, 0, 0, 0.8);
+        font-weight: bold;
+        font-size: 24px;
+        letter-spacing: 3px;
+    }
+
+    i {
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 30px;
+    }
+}
+
+.next-page:hover {
+    transform: translate(0,-5px);
+    
+    p, i{
+        color: rgba(3, 200, 158, 1);
+    }
+    
+}

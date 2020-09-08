@@ -7,6 +7,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeroPageComponent } from './hero-page/hero-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutPageComponent } from './about-page/about-page.component';
+import { NextPageButtonComponent } from './next-page-button/next-page-button.component';
+import { ConnectPageComponent } from './connect-page/connect-page.component';
+import { ExperiencePageComponent } from './experience-page/experience-page.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { AboutPageComponent } from './about-page/about-page.component';
     NavbarComponent,
     HeroPageComponent,
     FooterComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    NextPageButtonComponent,
+    ConnectPageComponent,
+    ExperiencePageComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,32 @@
+$base-color: rgba(111, 165, 191, 1);
+$base-light-color: rgba(111, 156, 191, 1);
+$primary-color: rgba(3, 200, 158, 1);
+$secondary-color: rgba(11, 35, 67, 1);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: "Tahoma";
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    color: rgba(17, 74, 117, 1);
+}
+
+.page {
+    position: relative;
+    height: 100vh;
+    padding: 22% 12%;
+}
+
+
+p {
+  text-align: center;
+  color: black;
+  font-size: 36px;
+}

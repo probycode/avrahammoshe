@@ -9,6 +9,7 @@ $secondary-color: rgba(11, 35, 67, 1);
     padding: 0;
 }
 
+
 p, button {
     font-family: "Tahoma";
     letter-spacing: 1px;
@@ -18,40 +19,55 @@ p, button {
     color: $base-color;
 }
 
-.hero {
-
+.page {
     position: relative;
     height: 100vh;
-    padding: 13% 12%;
+    padding: 15%;
+    text-align: center;
 
     p {
         padding: 5px 0px;
     }
 
     .p0 {
-        color: rgba(50, 208, 176, 1);
-        font-weight: bold;
-        font-size: 24px;
+        color: rgba(3, 197, 158, 1);
+        font-size: 32px;
     }
 
     .p1 {
-        color: rgba(3, 200, 158, 0.8);
+        color: black;
         font-weight: bold;
         font-size: 55px;
     }
     
     .p2 {
-        color: $base-color;
-        font-weight: bold;
-        font-size: 55px;
+        color: rgba(17, 74, 117, 1);
+        font-size: 18px;
+        padding: 30px 0px 20px 0px;
+        line-height: 30px;
     }
 
     .p3 {
-        color: $base-light-color;
+        color: rgba(17, 74, 117, 1);
         font-size: 18px;
-        padding: 10px 0px;
-        line-height: 30px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 35px;
     }
+}
+
+.page::before {    
+    content: "";
+    background-image: url("/assets/img/Connect_Web_Background.png");
+    background-size: cover;
+    opacity: 0.06;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
 }
 
 button {
@@ -60,9 +76,9 @@ button {
     border-radius: 5px;
     background-color: transparent;
     color: black;
-    padding: 16px 25px;
+    padding: 14px 35px;
     margin-top: 50px; 
-    font-size: 18px;
+    font-size: 21px;
     cursor: pointer;
     transition: all 0.3 ease 0s;
     outline:none
