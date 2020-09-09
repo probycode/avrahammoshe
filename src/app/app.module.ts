@@ -20,7 +20,7 @@ import { ExperiencePageComponent } from './experience-page/experience-page.compo
     AboutPageComponent,
     NextPageButtonComponent,
     ConnectPageComponent,
-    ExperiencePageComponent
+    ExperiencePageComponent,
   ],
   imports: [
     BrowserModule,
